@@ -1,5 +1,8 @@
 ### Updated Portfolio
 
+can use old portfolio site from HW 2
+
+
 Your updated site should have the following content:
 
 * Your name

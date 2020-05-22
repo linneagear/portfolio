@@ -1,0 +1,78 @@
+.navbar {
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topBkg {
+    width: 92%;
+    max-width: 900px;
+    text-align: center;
+    margin: 55px auto 25px auto;
+    color: #4C5365;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.work .h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #574454;
+}
+
+.about {
+    background: #ffffff;
+    width: 100%;
+    z-index: 1;
+}
+
+#bkgImage {
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.aboutWrapper {
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+    padding: 20px 0px 60px 0px;
+    max-width: 1400px;
+}
+
+#workSection {
+   text-align: center;
+   color: #574454;
+}
+
+.contactWrapper {
+    background:  #574454;
+}
+
+.contact {
+    padding: 40px 200px 100px 200px;
+    background:  #574454;
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.footer {
+    padding: 1.5rem 6rem;
+    color: rgb(140, 212, 212);
+    position: fixed;
+    margin-top: -2%;
+    height: 50;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: #574454;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.footer a:link {
+    color: #FFFFFF;
+}
+
