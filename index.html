@@ -10,6 +10,10 @@
   <!-- fontawesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Google Fonts CDN -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&family=Open+Sans+Condensed:wght@300&display=swap"
+    rel="stylesheet">
   <!-- CSS only -->
   <link rel="stylesheet" href="./Assets/style.css">
   <title>Linnea Gear | Web Developer</title>
@@ -60,63 +64,73 @@
     <br>
 
     <div class="work" id="workSection">
-      <h2>My Recent Work</h2>
+      <h2 class="recentWork" style="font-size: 60px;">My Recent Work</h2>
       <p>Here are a few design projects I've worked on recently.</p>
       <br>
       <br>
       <hr>
 
-      <div class="workWrapper card">
+      <div class="workWrapper">
+        <div class="card">
 
-        <h3>Work Day Scheduler</h3>
-        <div class="card-body">
-          <p>The perfect scheduler to fit your busy work day!</p>
-          <p>This work day scheduler allows the user to enter events into each time slot, and save that event for when
-            they next use it.</p>
-          <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
-          <a href="https://github.com/linneagear/WorkDayScheduler" class="btn btn-outline-info">Github Repo</a>
-          <br>
-          <br>
-          <img src="./Assets/Images/scheduler.PNG" class="img">
+          <h3>Work Day Scheduler</h3>
+          <div class="card-body">
+            <p>The perfect scheduler to fit your busy work day!</p>
+            <p>This work day scheduler allows the user to enter events into each time slot, and save that event for when
+              they next use it.</p>
+            <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/linneagear/WorkDayScheduler" class="btn btn-outline-info">Github Repo</a>
+            <br>
+            <br>
+            <img src="./Assets/Images/scheduler.PNG" class="img">
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card">
+          <h3>Coding Quiz</h3>
+          <div class="card-body">
+            <p>Test your coding skills with this helpful Quiz!</p>
+            <p>A 10 question timed quiz, that saves your highscores to try and beat later!</p>
+            <a href="https://linneagear.github.io/Code-Quiz-HW4/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/linneagear/Code-Quiz-HW4" class="btn btn-outline-info">Github Repo</a>
+            <br>
+            <br>
+            <img src="./Assets/Images/codequiz.PNG" class="img">
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card">
+          <h3>Moving App</h3>
+          <div class="card-body">
+            <p>The MoveMe app is a helpful tool for finding movers, storage, or where to rent a truck in your area.</p>
+            <a href="https://move-me-by-glass.netlify.app/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/Dayman628/move-me" class="btn btn-outline-info">Github Repo</a>
+            <br>
+            <br>
+            <img src="./Assets/Images/moveme.png" class="img">
+          </diV>
         </div>
       </div>
-      <br>
-      <div class="card">
-
-        <h3>Coding Quiz</h3>
-        <div class="card-body">
-          <p>Test your coding skills with this helpful Quiz!</p>
-          <p>A 10 question timed quiz, that saves your highscores to try and beat later!</p>
-          <a href="https://linneagear.github.io/Code-Quiz-HW4/" class="btn btn-outline-info">Website</a>
-          <a href="https://github.com/linneagear/Code-Quiz-HW4" class="btn btn-outline-info">Github Repo</a>
-          <br>
-          <br>
-          <img src="./Assets/Images/codequiz.PNG" class="img">
-        </div>
-      </div>
-      <br>
-
-      <div class="card">
-        <h3>Moving App</h3>
-        <div class="card-body">
-          <p>The MoveMe app is a helpful tool for finding movers, storage, or where to rent a truck in your area.</p>
-          <p></p>
-          <a href="https://move-me-by-glass.netlify.app/" class="btn btn-outline-info">Website</a>
-          <a href="https://github.com/Dayman628/move-me" class="btn btn-outline-info">Github Repo</a>
-          <br>
-          <br>
-          <img src="./Assets/Images/moveme.png" class="img">
-        </diV>
-      </div>
-      <!-- end container -->
     </div>
     <br>
-    <p>I'd love to work with you!</p>
+    <br>
+    <br>
+    <h2>I'd love to work with you!</h2>
+    <p>Fill out the below contact information, and I will get back with you.</p>
+    <p>You can also email me at linneagear@gmail.com or by phone: (602) 705 5460</p>
   </div>
 
-  <div class="contact" id="contactSection">
+  <br>
+  <br>
+
+  <!-- contact form -->
+  <div class="contact" id="contactSection" style="color: white;">
     <div class="contactWrapper">
-      <h2>Contact</h2>
+      <h2 style="color: white; padding-top: 20px;">Contact</h2>
       <hr>
       <div class="form-group">
         <label for="exampleFormControlInput1">Name</label>
@@ -132,31 +146,37 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <!--Submit button-->
-      <button type="button" class="btn btn-outline-info">Submit</button>
+      <button type="button" class="btn btn-outline-info" style="border-color: white;">Submit</button>
     </div>
     <br>
-    <p><i>You can email me at linneagear@gmail.com or by phone: (602) 705 5460</p></i>
-  </div>
-
   </div>
 
   <div class="footer">
-    <a href="#top">HOME</a>
-    <a href="#aboutSection">ABOUT</a>
-    <a href="#workSection">WORK</a>
-    <a href="#contactSection">CONTACT</a>
-    <a href="">RESUME</a>
+    <p>
+      <a href="#top" class="navlink">HOME</a>
+      •
+      <a href="#aboutSection" class="navlink">ABOUT</a>
+      •
+      <a href="#workSection" class="navlink">WORK</a>
+      •
+      <a href="#contactSection" class="navlink">CONTACT</a>
+      •
+      <a href="./Assets/Linnea_Gear_Resume.pdf" class="navlink">RESUME</a>
+    </p>
 
-    <span class="whiteText">
-      <script language="javascript" type="text/javascript">
-        var today = new Date()
-        var year = today.getFullYear()
-        document.write(year)
-      </script>
-      © LINNEA GEAR
+    <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+
+      <span class="blueText" style="color: rgb(74, 144, 190);">
+        <script language="javascript" type="text/javascript">
+          var today = new Date()
+          var year = today.getFullYear()
+          document.write(year)
+        </script>
+        © LINNEA GEAR
+    </p>
     </span>
+    </p>
   </div>
-
 
   <!-- JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -1,16 +1,21 @@
 .navbar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color: none;
 	border-color:transparent;
 	background-image:none;
 	box-shadow:none;	
 }
 
+body {
+    width: 100%;
+}
+
 .container {
     text-align: center;
     padding-right: 80px;
     padding-left: 80px;
-    width: 720px;
+    max-width: 720px;
+ 
 }
 
 .topBkg {
@@ -25,18 +30,24 @@
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 80px;
+   color: #161311;
 }
 
-.work .h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #574454;
-    padding: 40px;
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #1b161b;
 }
 
-.about {
-    background: #ffffff;
-    width: 100%;
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #1b161b;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 #bkgImage {
@@ -56,7 +67,9 @@ h1 {
 .btn {
     padding: 5px;
     background-color: rgb(240, 191, 101);
-    color: rgb(68, 55, 55)
+    border-color: rgb(240, 191, 101);
+    color: rgb(255, 255, 255);
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .homeWrapper {
@@ -68,32 +81,44 @@ h1 {
 
 #workSection {
    text-align: center;
-   color: #574454;
+   color: #382c36;
+}
+
+a {
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .contact {
-    padding: 40px 200px 100px 200px;
-    color: #574454;
+   padding-right: 30%;
+   padding-left: 30%;
+    color: #292228;
     background-color: rgb(240, 191, 101);
     font-size: 15px;
     line-height: 23px;
+
 }
+
 
 .footer {
     padding: 1.5rem 6rem;
-    position: fixed;
-    background-color: rgb(240, 191, 101);
-    margin-top: -2%;
-    height: 40px;
+    padding: 0px 0px 30px 0px;
     width: 100%;
+    background-color: rgb(240, 191, 101);
     text-align: center;
     bottom: 0;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #ffffff;
 }
 
-.footer a:link a:visited a:active {
-    color: #FFFFFF;
+a.navlink:link
+{
+   color: #ffffff;
+   text-decoration: none;
 }
 
+a.navlink:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}
