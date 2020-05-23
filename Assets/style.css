@@ -1,35 +1,41 @@
-* {
-    box-sizing: border-box;
-  }
-
-
 .navbar {
     background: transparent;
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 720px;
+}
+
 .topBkg {
     width: 92%;
     max-width: 900px;
-    text-align: center;
     margin: 55px auto 25px auto;
     color: #4C5365;
+}
+
+.card {
+    padding: 20px; 
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    padding: 20px;
 }
 
 .work .h2 {
     font-family: 'Montserrat', sans-serif;
     color: #574454;
+    padding: 40px;
 }
 
 .about {
     background: #ffffff;
     width: 100%;
-    z-index: 1;
 }
 
 #bkgImage {
@@ -40,12 +46,20 @@ h1 {
     opacity: 0.7;
 }
 
+.img {
+    width:100%;
+    max-width:720px;
+}
 
-.about {
+.btn {
+    padding: 5px;
+}
+
+.home {
     width: 50%;
     text-align: center;
     position: fixed;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -82,7 +96,7 @@ h1 {
     color: #ffffff;
 }
 
-.footer a:link {
+.footer a:link a:visited a:active {
     color: #FFFFFF;
 }
 

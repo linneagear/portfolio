@@ -7,71 +7,113 @@
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- fontawesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <!-- CSS only -->
   <link rel="stylesheet" href="./Assets/style.css">
   <title>Linnea Gear | Web Developer</title>
 </head>
 
 <body>
- <!-- navbar -->
- <nav class="navbar is-transparent navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+  <!-- navbar -->
+  <nav class="navbar is-transparent navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="./frontPage.html#aboutSection">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="./frontPage.html#aboutSection">About</a>
-          <a class="nav-item nav-link" href="./index.html#workSection">Work</a>
-          <a class="nav-item nav-link" href="./index.html#contactSection">Contact</a>
-          <a class="nav-item nav-link" href="./resume.pdf">Resume</a>
+        <a class="nav-item nav-link" href="./frontPage.html">Home </a>
+        <a class="nav-item nav-link" href="./index.html">About</a>
+        <a class="nav-item nav-link" href="./index.html#workSection">Work</a>
+        <a class="nav-item nav-link" href="./index.html#contactSection">Contact</a>
+        <a class="nav-item nav-link" href="./Assets/Linnea_Gear_Resume.pdf">Resume</a>
+        <a class="nav-item nav-link" href="https://www.linkedin.com/in/linnea-gear/"><i class="fab fa-linkedin"></i></a>
+        <a class="nav-item nav-link" href="https://github.com/linneagear"><i class="fab fa-github"></i></a>
       </div>
-  </div>
-</nav>
+    </div>
+  </nav>
 
   <div class="container">
+
+    <div class="about" id="aboutSection">
+      <h1>About</h1>
+      <hr>
+      <p>My name is Linnea Gear and I am a Front-End Developer. I have recently earned a certificate in full stack web
+        development from the University of Arizona with skills in Javascript, Python, SQL, CSS, and responsive web
+        design.</p>
+      <p>I leverage my chemistry background in solving equations, enabling me to be a focused problem-solver with a
+        passion for approaching programming challenges while collaborating with others. I also have experience in data
+        analysis in my current role, using production planning, inventory control, and an SQL-based database system to
+        analyze the inventory levels of the company. I’m excited to use my skills to create quality-driven, responsive
+        web pages.</p>
+      <br>
+      <img src="./Assets/Images/me.jpg" alt="Linnea in front of a castle" width="300px" height="340px" id="image1" />
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
 
     <div class="work" id="workSection">
       <h2>My Recent Work</h2>
       <p>Here are a few design projects I've worked on recently.</p>
+      <br>
+      <br>
+      <hr>
 
-      <div class="workWrapper row">
+      <div class="workWrapper card">
 
-        <div class="col-sm">
-          <div class="Project1">
-            <img src="./Assets/Images/scheduler.PNG">
-          </div>
-
-          <div class="col-sm">
-            <h3>Work Day Scheduler</h3>
-            <p>The perfect scheduler to fit your busy work day!</p>
-
-            <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
-            <a href="#" class="btn btn-outline-info">Github Repo</a>
-
-          </div>
+        <h3>Work Day Scheduler</h3>
+        <div class="card-body">
+          <p>The perfect scheduler to fit your busy work day!</p>
+          <p>This work day scheduler allows the user to enter events into each time slot, and save that event for when
+            they next use it.</p>
+          <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
+          <a href="https://github.com/linneagear/WorkDayScheduler" class="btn btn-outline-info">Github Repo</a>
+          <br>
+          <br>
+          <img src="./Assets/Images/scheduler.PNG" class="img">
         </div>
-
-        <div class="row">
-          <div class="Project2 col-sm">
-            <!-- <img src="./Assets/Images/"> -->
-          </div>
-
-          <div class="col-md">
-            <h3></h3>
-            <p></p>
-
-            <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
-            <a href="#" class="btn btn-outline-info">Github Repo</a>
-          </div>
-        </div>
-
       </div>
+      <br>
+      <div class="card">
 
+        <h3>Coding Quiz</h3>
+        <div class="card-body">
+          <p>Test your coding skills with this helpful Quiz!</p>
+          <p>A 10 question timed quiz, that saves your highscores to try and beat later!</p>
+          <a href="https://linneagear.github.io/Code-Quiz-HW4/" class="btn btn-outline-info">Website</a>
+          <a href="https://github.com/linneagear/Code-Quiz-HW4" class="btn btn-outline-info">Github Repo</a>
+          <br>
+          <br>
+          <img src="./Assets/Images/codequiz.PNG" class="img">
+        </div>
+      </div>
+      <br>
+
+      <div class="card">
+        <h3>Moving App</h3>
+        <div class="card-body">
+          <p>The MoveMe app is a helpful tool for finding movers, storage, or where to rent a truck in your area.</p>
+          <p></p>
+          <a href="https://move-me-by-glass.netlify.app/" class="btn btn-outline-info">Website</a>
+          <a href="https://github.com/Dayman628/move-me" class="btn btn-outline-info">Github Repo</a>
+          <br>
+          <br>
+          <img src="./Assets/Images/moveme.png" class="img">
+        </diV>
+      </div>
+      <!-- end container -->
     </div>
-
+    <br>
+    <p>I'd love to work with you!</p>
   </div>
+
   <div class="contact" id="contactSection">
     <div class="contactWrapper">
       <h2>Contact</h2>
@@ -92,9 +134,11 @@
       <!--Submit button-->
       <button type="button" class="btn btn-outline-info">Submit</button>
     </div>
+    <br>
+    <p><i>You can email me at linneagear@gmail.com or by phone: (602) 705 5460</p></i>
   </div>
 
-
+  </div>
 
   <div class="footer">
     <a href="#top">HOME</a>
