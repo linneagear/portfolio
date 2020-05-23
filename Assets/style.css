@@ -1,6 +1,9 @@
 .navbar {
-    background: transparent;
     font-family: 'Montserrat', sans-serif;
+    background-color: none;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
 }
 
 .container {
@@ -23,8 +26,6 @@
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    padding: 20px;
 }
 
 .work .h2 {
@@ -39,11 +40,12 @@ h1 {
 }
 
 #bkgImage {
-    position: absolute; 
+    position: fixed; 
     width: 100%; 
     height: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.65;
+    object-fit: cover;
 }
 
 .img {
@@ -53,15 +55,15 @@ h1 {
 
 .btn {
     padding: 5px;
+    background-color: rgb(240, 191, 101);
+    color: rgb(68, 55, 55)
 }
 
-.home {
-    width: 50%;
+.homeWrapper {
+    color: black;
     text-align: center;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #workSection {
@@ -69,28 +71,23 @@ h1 {
    color: #574454;
 }
 
-.contactWrapper {
-    background:  #574454;
-}
-
 .contact {
     padding: 40px 200px 100px 200px;
-    background:  #574454;
-    color: #aaaaaa;
+    color: #574454;
+    background-color: rgb(240, 191, 101);
     font-size: 15px;
     line-height: 23px;
 }
 
 .footer {
     padding: 1.5rem 6rem;
-    color: rgb(140, 212, 212);
     position: fixed;
+    background-color: rgb(240, 191, 101);
     margin-top: -2%;
-    height: 50;
+    height: 40px;
     width: 100%;
     text-align: center;
     bottom: 0;
-    background-color: #574454;
     font-size: 13px;
     letter-spacing: 1px;
     color: #ffffff;
